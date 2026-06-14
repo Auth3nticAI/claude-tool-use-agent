@@ -1,5 +1,7 @@
 # Claude Tool-Use Agent
 
+![CI](https://github.com/Auth3nticAI/claude-tool-use-agent/actions/workflows/ci.yml/badge.svg)
+
 > A working implementation of the Anthropic tool-use loop — `run_agent(db, user_message)` runs Claude in a loop, executes the tools Claude asks for, feeds the results back as `user`-role messages, and returns when the model emits `end_turn`. Wrapped in a FastAPI endpoint that hands the model 5 real tools over a Postgres book library.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.136-009688?style=flat&logo=fastapi&logoColor=white)
